@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Sep 19 17:38:16 2021
+[*]
+[dumpfile] "/home/kiko/ver/tests/immtest.vcd"
+[dumpfile_mtime] "Sun Sep 19 17:37:37 2021"
+[dumpfile_size] 1165
+[savefile] "/home/kiko/ver/tests/immtest.gtkw"
+[timestart] 0
+[size] 1366 748
+[pos] -1 -1
+*-4.407741 45 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 201
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 205
+@28
+immtest.clk
+@22
+immtest.instruction[31:0]
+@28
+immtest.immediate_enable
+@23
+immtest.immediate[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,86 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Oct 24 23:51:22 2021
+[*]
+[dumpfile] "/home/lask/ver/test.vcd"
+[dumpfile_mtime] "Sun Oct 24 23:49:29 2021"
+[dumpfile_size] 17034
+[savefile] "/home/lask/ver/categ_wave.gtkw"
+[timestart] 0
+[size] 1049 1053
+[pos] -1 -1
+*-4.311914 96 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[treeopen] test.t1.
+[sst_width] 219
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 319
+@200
+-CPU
+@28
+test.t1.clk
+@22
+test.t1.pc[31:0]
+test.t1.instr[31:0]
+test.t1.hz_in[31:0]
+test.t1.p_id[31:0]
+test.t1.p_ex[31:0]
+test.t1.p_mem[31:0]
+test.t1.p_wb[31:0]
+@200
+-HAZARD
+@28
+test.t1.haz.stop_o
+@22
+test.t1.haz.instr[31:0]
+test.t1.haz.prev[31:0]
+@28
+test.t1.haz.count[2:0]
+@22
+test.t1.haz.hz_instr_o[31:0]
+@200
+-BRANCH
+@22
+test.t1.p_id[31:0]
+test.t1.brn.a[31:0]
+test.t1.brn.b[31:0]
+@28
+test.t1.brn.br
+@200
+-REG
+@22
+test.t1.haz.hz_instr_o[31:0]
+test.t1.rf.ad1[4:0]
+test.t1.a_rf[31:0]
+test.t1.rf.ad2[4:0]
+test.t1.b_rf[31:0]
+test.t1.p_mem[31:0]
+test.t1.rf.adw[4:0]
+test.t1.rf.rsw[31:0]
+@28
+test.t1.rf.we
+@200
+-IMM
+@22
+test.t1.ig.imm[31:0]
+@28
+test.t1.ig.imm_en
+@200
+-ALU
+@22
+test.t1.p_id[31:0]
+test.t1.alu.a[31:0]
+test.t1.alu.b[31:0]
+test.t1.alu.res[31:0]
+test.t1.res_wb[31:0]
+@200
+-DMEM
+@22
+test.t1.p_ex[31:0]
+test.t1.dmem.ad[31:0]
+test.t1.dmem.rs_data[31:0]
+@28
+test.t1.dmem.we
+[pattern_trace] 1
+[pattern_trace] 0

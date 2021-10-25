@@ -1,0 +1,78 @@
+$date
+	Sun Sep 19 20:41:55 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module immtest $end
+$var wire 1 ! immediate_enable $end
+$var wire 32 " immediate [31:0] $end
+$var reg 1 # clk $end
+$var reg 32 $ instruction [31:0] $end
+$scope module immtst $end
+$var wire 1 # clk $end
+$var wire 32 % instr [31:0] $end
+$var reg 32 & imm [31:0] $end
+$var reg 1 ! imm_en $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+bx0110011 %
+bx0110011 $
+0#
+b0 "
+0!
+$end
+#5
+1#
+#10
+0#
+b100010001000xxxxxxxxxxxxx0000011 $
+b100010001000xxxxxxxxxxxxx0000011 %
+#15
+1!
+b11111111111111111111100010001000 "
+b11111111111111111111100010001000 &
+1#
+#20
+0#
+b1000100xxxxxxxxxxxxx010000100011 $
+b1000100xxxxxxxxxxxxx010000100011 %
+#25
+1#
+#30
+0#
+b100000xxxxxxxxxxxxx010011100011 $
+b100000xxxxxxxxxxxxx010011100011 %
+#35
+b110000001000 "
+b110000001000 &
+1#
+#40
+0#
+b10101010101010101010xxxxx0110111 $
+b10101010101010101010xxxxx0110111 %
+#45
+b11111111111110101010101010101010 "
+b11111111111110101010101010101010 &
+1#
+#50
+0#
+b1000100110101010xxxxx1101111 $
+b1000100110101010xxxxx1101111 %
+#55
+b10101010100010001000 "
+b10101010100010001000 &
+1#
+#60
+0#
+#65
+1#
+#70
+0#

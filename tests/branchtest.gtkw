@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Oct 24 21:40:02 2021
+[*]
+[dumpfile] "/home/lask/ver/tests/branchtest.vcd"
+[dumpfile_mtime] "Sun Oct 24 21:37:36 2021"
+[dumpfile_size] 979
+[savefile] "/home/lask/ver/tests/branchtest.gtkw"
+[timestart] 1
+[size] 848 328
+[pos] 329 143
+*-5.272068 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] branchtest.
+[sst_width] 219
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 60
+@28
+branchtest.branchtst.clk
+@22
+branchtest.branchtst.a[31:0]
+branchtest.branchtst.b[31:0]
+branchtest.branchtst.instr[31:0]
+@29
+branchtest.branchtst.br
+[pattern_trace] 1
+[pattern_trace] 0

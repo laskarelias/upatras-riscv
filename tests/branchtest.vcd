@@ -1,0 +1,95 @@
+$date
+	Mon Oct 25 00:37:36 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module branchtest $end
+$var wire 1 ! branch $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 1 $ clk $end
+$var reg 32 % instruction [31:0] $end
+$scope module branchtst $end
+$var wire 32 & a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 1 $ clk $end
+$var wire 32 ( instr [31:0] $end
+$var reg 1 ! br $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx1101111 (
+bx '
+bx &
+bx1101111 %
+0$
+bx #
+bx "
+0!
+$end
+#5
+1!
+1$
+#10
+0$
+bx1100111 %
+bx1100111 (
+#15
+1$
+#20
+0$
+b1011 #
+b1011 '
+b1010 "
+b1010 &
+bx000xxxxx1100011 %
+bx000xxxxx1100011 (
+#25
+0!
+1$
+#30
+0$
+bx001xxxxx1100011 %
+bx001xxxxx1100011 (
+#35
+1!
+1$
+#40
+0$
+bx100xxxxx1100011 %
+bx100xxxxx1100011 (
+#45
+1$
+#50
+0$
+bx101xxxxx1100011 %
+bx101xxxxx1100011 (
+#55
+0!
+1$
+#60
+0$
+bx110xxxxx1100011 %
+bx110xxxxx1100011 (
+#65
+1!
+1$
+#70
+0$
+bx111xxxxx1100011 %
+bx111xxxxx1100011 (
+#75
+0!
+1$
+#80
+0$
+#85
+1$
+#90
+0$

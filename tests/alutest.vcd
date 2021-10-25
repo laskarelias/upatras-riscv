@@ -1,0 +1,69 @@
+$date
+	Mon Oct 25 00:42:42 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alutest $end
+$var wire 32 ! result [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$var reg 1 $ clk $end
+$var reg 32 % operation [31:0] $end
+$scope module alutst $end
+$var wire 32 & a [31:0] $end
+$var wire 32 ' b [31:0] $end
+$var wire 1 $ clk $end
+$var wire 32 ( instr [31:0] $end
+$var reg 32 ) res [31:0] $end
+$var reg 32 * res_r [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+b0 )
+b0xxxxxxxxxx111xxxxx0110011 (
+b10001001101010111100110111101111 '
+b10000111011001010100001100100001 &
+b0xxxxxxxxxx111xxxxx0110011 %
+0$
+b10001001101010111100110111101111 #
+b10000111011001010100001100100001 "
+bx !
+$end
+#5
+b10000001001000010100000100100001 !
+b10000001001000010100000100100001 *
+b10000001001000010100000100100001 )
+1$
+#10
+0$
+b0xxxxxxxxxx000xxxxx0110011 %
+b0xxxxxxxxxx000xxxxx0110011 (
+#15
+b10001000100010001000100010000 !
+b10001000100010001000100010000 *
+b10001000100010001000100010000 )
+1$
+#20
+0$
+b0xxxxxxxxxx001xxxxx0110011 %
+b0xxxxxxxxxx001xxxxx0110011 (
+b10000 #
+b10000 '
+#25
+b1000011001000010000000000000000 !
+b1000011001000010000000000000000 *
+b1000011001000010000000000000000 )
+1$
+#30
+0$
+#35
+1$
+#40
+0$

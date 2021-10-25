@@ -1,0 +1,174 @@
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cpu2.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cpu2"
+Output Format                      : NGC
+Target Device                      : xc7a200t-3-fbg484
+
+---- Source Options
+Top Module Name                    : cpu2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 128x8-bit dual-port Read Only RAM                     : 2
+ 32x32-bit dual-port RAM                               : 2
+# Adders/Subtractors                                   : 10
+ 32-bit adder                                          : 8
+ 32-bit subtractor                                     : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 151
+ 1-bit register                                        : 4
+ 3-bit register                                        : 1
+ 32-bit register                                       : 18
+ 8-bit register                                        : 128
+# Latches                                              : 32
+ 1-bit latch                                           : 32
+# Comparators                                          : 8
+ 3-bit comparator greater                              : 1
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 4
+ 5-bit comparator equal                                : 2
+# Multiplexers                                         : 40
+ 32-bit 2-to-1 multiplexer                             : 32
+ 32-bit 7-to-1 multiplexer                             : 1
+ 8-bit 128-to-1 multiplexer                            : 4
+ 8-bit 2-to-1 multiplexer                              : 3
+# Logic shifters                                       : 5
+ 32-bit shifter logical left                           : 4
+ 32-bit shifter logical right                          : 1
+# Tristates                                            : 608
+ 1-bit tristate buffer                                 : 96
+ 8-bit tristate buffer                                 : 512
+# Xors                                                 : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a200tfbg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1498  out of  269200     0%  
+ Number of Slice LUTs:                 5316  out of  134600     3%  
+    Number used as Logic:              5220  out of  134600     3%  
+    Number used as Memory:               96  out of  46200     0%  
+       Number used as RAM:               64
+       Number used as SRL:               32
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   5559
+   Number with an unused Flip Flop:    4061  out of   5559    73%  
+   Number with an unused LUT:           243  out of   5559     4%  
+   Number of fully used LUT-FF pairs:  1255  out of   5559    22%  
+   Number of unique control sets:       141
+
+IO Utilization: 
+ Number of IOs:                          65
+ Number of bonded IOBs:                  65  out of    285    22%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of    365     0%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                2  out of     32     6%  
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5533
+#      GND                         : 5
+#      INV                         : 5
+#      LUT1                        : 29
+#      LUT2                        : 107
+#      LUT3                        : 209
+#      LUT4                        : 327
+#      LUT5                        : 608
+#      LUT6                        : 3935
+#      MUXCY                       : 168
+#      MUXF7                       : 41
+#      VCC                         : 5
+#      XORCY                       : 94
+# FlipFlops/Latches                : 1498
+#      FD                          : 185
+#      FDE                         : 1120
+#      FDR                         : 129
+#      FDRE                        : 32
+#      LDC_1                       : 32
+# RAMS                             : 35
+#      RAM32X1D                    : 32
+#      RAMB18E1                    : 3
+# Shift Registers                  : 32
+#      SRLC16E                     : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 64
+#      OBUF                        : 64
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.700ns (Maximum Frequency: 149.245MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 2.415ns
+   Maximum combinational path delay: No path found
+

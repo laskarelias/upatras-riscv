@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Sep 16 09:53:17 2021
+[*]
+[dumpfile] "/home/kiko/ver/tests/memtest.vcd"
+[dumpfile_mtime] "Thu Sep 16 09:52:42 2021"
+[dumpfile_size] 2336
+[savefile] "/home/kiko/ver/tests/memtest.gtkw"
+[timestart] 42
+[size] 1366 716
+[pos] -1 -1
+*-4.240259 82 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 201
+[signals_width] 297
+[sst_expanded] 1
+[sst_vpaned_height] 194
+@28
+memtest.clk
+@22
+memtest.address[63:0]
+@28
+memtest.width[2:0]
+memtest.write_enable
+@23
+memtest.data_wire[63:0]
+[pattern_trace] 1
+[pattern_trace] 0
