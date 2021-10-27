@@ -478,7 +478,7 @@ The assembler was checked by manually checking generated complex instruction and
             \hline
             \cellcolor{lgray} \textbf{Εντολή} & \cellcolor{lgray} \textbf{Αποτέλεσμα} & \cellcolor{lgray} \centering \textbf{Περιγραφή} \tabularnewline\hline
             jal x1, label & x1 \textleftarrow\space PC + 4, PC \textleftarrow\space label & Αποθήκευση της διεύθυνσης της επόμενης εντολής στον x1, και θέση της τιμής του μετρητή προγράμματος στην τιμή του label. \\\hline
-            jal x1, label(x2) & x1 \textleftarrow\space PC + 4, PC \textleftarrow\space label + \$(x2) & Αποθήκευση της διεύθυνσης της επόμενης εντολής στον x1, και ανάθεση της τιμής του μετρητή προγράμματος στην τιμή (label + \$(x2)). \\\hline
+            jalr x1, label(x2) & x1 \textleftarrow\space PC + 4, PC \textleftarrow\space label + \$(x2) & Αποθήκευση της διεύθυνσης της επόμενης εντολής στον x1, και ανάθεση της τιμής του μετρητή προγράμματος στην τιμή (label + \$(x2)). \\\hline
             \end{tabular} }
             \caption{\label{tab:widgets}Εντολές τύπου Jump}
         \end{table}
