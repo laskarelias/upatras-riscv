@@ -13,7 +13,7 @@ module test();
 	initial begin
 	        clk = 0;
 	        
-	  #200 $finish;	
+	  #220 $finish;	
 		
 	end
 

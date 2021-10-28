@@ -85,9 +85,10 @@ module hazard
     assign halt1      = (rd1 | rd2) & (wr2) ? 1 : 0;
     assign halt2      = (rd1 | rd2) & (wr3) ? 1 : 0;
     assign stop       = (halt1 | halt2 | (count != 0));
-    assign stop_o     = (halt1 | (halt2 & (count != 1)));
+    assign stop_o     = (halt1 | (halt2 & (count != 1)) | count == 2);
     assign hz_instr_o = (br | br2)          ? 32'b0 : 
                         count > 0           ? hz_instr_o : prev;
+    
 
 
 endmodule
